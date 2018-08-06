@@ -15,12 +15,12 @@ nav{
     
 }
 
-h1 {
+/* h1 {
     color: blue;
     font-family:sans-serif
     font-family: 'Montserrat-Light';
     font-size: 22px;
-}
+} */
 p {
 /*    color: red;*/
 /*    border: 1px solid powderblue;*/
@@ -43,22 +43,22 @@ h2{
 }
 
 ul {
-    list-style-type: none;
+    /* list-style-type: none;
     margin: 0;
     padding: 0;
     height: 10vh;
     overflow: hidden;
     background-color: #523f59;
-    color: black;
+    color: black; */
     font-family: 'Montserrat';
     font-size: 23px;
     
 }
 
-ul.format{
+/* ul.format{
      height: 1vh;
 }
-
+/* 
 li {
     float:none;
 }
@@ -70,7 +70,7 @@ li a {
     vertical-align: text-bottom;
     padding: 3px 16px;
     /*text-decoration: none;*/
-}
+/* }  */
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
@@ -79,7 +79,7 @@ li a:hover {
 
 .active {
     background-color: #fc6e6e;
-}
+} */
 
 div.nav{
     padding: 0px;
@@ -89,20 +89,8 @@ div.nav{
     margin: 0 auto;
     background-color: #523f59;
 }
-
-div.navContainer{
-/*    vertical-align: bottom;*/
-    div.container{
-    width: 90%;
-    height: 98%;
-    margin: 0 auto;
-    overflow: visible;
-        background-color: #523f59;
-
     
-}
-    
-}
+
 div.navLine
 {
     padding: 0px;
@@ -209,9 +197,9 @@ aside{
 }
 */
 
-footer{
+/* footer{
    
-}
+} */
 
 p.right{
     float: right;
