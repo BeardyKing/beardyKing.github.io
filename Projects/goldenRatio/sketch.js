@@ -14,12 +14,9 @@ var i = 1;
 var j = 0;
 
  var offset = 137.5;
-// var offset;
 var offsetHolder;
 
 function draw() {
-	//console.log(1 * 180/PI)
-	//background(50, 50,50);
 	fill(255, 128, 30, 200);
 	angleMode(DEGREES);
 	noStroke();
@@ -28,13 +25,10 @@ function draw() {
 	rotate(offset);
 	i += 0.1;
 	
-
 	for (let n = 0; n < 1; n++) {
 		offset += offsetHolder
 		ellipse(0	, i, 2, 2);
-			
 		}
-	
 }
 
 function keyPressed()
